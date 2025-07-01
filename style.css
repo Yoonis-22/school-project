@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* section-one */
+.color{
+    background: #F9FAF4;
+    height: 120vh;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+}
+.header img{
+    width: 200px;
+    height: 50px;
+    
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.4em;
+    padding-top: 5px;
+}
+.header li{
+    list-style: none;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border: none;
+    background: #F16126;
+    color: white;
+    
+}
+.btn button:nth-of-type(1){
+    background: white;
+    color: black;
+}
+.btn button i{
+    font-size: 1.5em;
+}
+
+/* section-2 */
+.left-container h4{
+    color: #F16126;
+}
+.left-container h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.left-container button{
+    width: 300px;
+    height: 45px;
+    border: none;
+    color:#777777;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+   
+
+}
+.left-container button:nth-of-type(2){
+    width: 130px;
+    background-color: #F16126;
+    color: white;
+    margin-left: -7%;
+   
+}
+.popular{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    
+}
+.popular a{
+    color: black;
+    font-weight: 600;
+}
+.popular p:nth-of-type(1){
+    color:#777777;
+    font-weight: 900;
+}
+.right-container img{
+    width: 390px;
+    margin-top: -8%;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
