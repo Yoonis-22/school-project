@@ -42,6 +42,7 @@ html{
     border: none;
     background: #F16126;
     color: white;
+    cursor: pointer;
     
 }
 .btn button:nth-of-type(1){

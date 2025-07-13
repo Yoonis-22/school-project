@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* section-one */
+.color{
+    background: #F9FAF4;
+    height: 50vh;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header img{
+    width: 200px;
+    height: 50px;
+    
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.4em;
+    padding-top: 5px;
+}
+.header li{
+    list-style: none;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border: none;
+    background: #F16126;
+    color: white;
+    cursor: pointer;
+    
+}
+.btn button:nth-of-type(1){
+    background: white;
+    color: black;
+}
+.btn button i{
+    font-size: 1.5em;
+}
+.archive{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+.archive p{
+    font-size: 18px;
+}
+
+/* section-2 */
+.Login{
+    background-color: #FFF9F1;
+    height: 145vh;
+}
+.Login1{
+    padding-top: 5%;
+    text-align: center;
+    
+}
+.logic{
+    padding-top: 5%;
+    background-color: white;
+    width: 490px;
+    height: 115vh;
+    border-radius: 10px;
+    margin-left: 30%;
+
+}
+.Login1 h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.Login2 input{
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border:1px solid #5F5F5F;
+
+}
+.Login3{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Login3 a{
+    color: #5F5F5F;
+    margin-left: 130px;
+}
+
+.Login-submit input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #F16126;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.Login-submit p{
+    margin-bottom: 20px;
+}
+.Login4 p{
+    background-color:#F16126;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 48%;
+    margin-bottom: 10px;
+}
+.Login4-icon{
+    font-size: 2.5em;
+}
+/* section-3 */
+.footer{
+    background-color:#1F1F33;
+    color: white;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
+    
+}
+.footer-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer1{
+    margin-bottom: 4%;
+}
+.footer-one h3{
+    font-size: 2em;
+}
+.footer-input{
+    margin-top: 1%;
+    margin-left: 6%;
+}
+.footer-input input{
+    width: 500px;
+    height: 13vh;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    position: relative;
+    
+}
+.footer-btn button{
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: #00A556;
+    color: white;
+    position:absolute;
+    
+    right: 13%;
+    margin-top: 22px;
+    
+    
+}
+.footer2{
+    margin-top: 3%;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.site h3{
+    font-size: 1.4em;
+    border-bottom: 3px solid #00A556;
+    
+}
+.site p{
+    line-height: 35px;
+    margin-top: 5px;
+
+}
+.Useful-Links h3{
+    font-size: 1.4em;
+    border-bottom: 3px solid #00A556;
+}
+.Useful-Links p{
+    line-height: 35px;
+    margin-top: 5px;
+
+}
+.Social-Contact h3{
+    font-size: 1.4em;
+    border-bottom: 3px solid #00A556;
+}
+.Social-Contact p{
+    line-height: 35px;
+    margin-top: 5px;
+}
+.Our-Support h3{
+    font-size: 1.4em;
+    border-bottom: 3px solid #00A556;
+}
+.Our-Support p{
+    line-height: 35px;
+    margin-top: 5px;
+
+}

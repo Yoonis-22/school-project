@@ -40,9 +40,13 @@ html{
 .btn button{
     padding: 10px 20px;
     border: none;
-    background: #F16126;
-    color: white;
     
+    color: white;
+    cursor: pointer;
+    
+}
+.btn button:nth-of-type(2){
+    background: #F16126;
 }
 .btn button:nth-of-type(1){
     background: white;
